@@ -1,5 +1,6 @@
 *{
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -16,3 +17,19 @@
 @media (min-width: @screen-lg-min) {
     
  }
+
+.c1 .row:first-child{
+    background-color: #2C3E50;
+}
+.c1 .row:last-child{
+    background-color: #1ABC9C;
+}
+.c3{
+    background-color: #1ABC9C;
+}
+.c5 .row:first-child{
+    background-color: #3A546D;
+}
+.c5 .row:last-child{
+    background-color: #2C3E50;
+}
