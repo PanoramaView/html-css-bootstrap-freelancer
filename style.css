@@ -1,20 +1,29 @@
 *{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
+    font-size: 18px;
+}
+.title > h1{
+    font-weight:1000;
+}
+nav h2{
+    margin: 10;
 }
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) {
-
- }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) {
+@media all and (min-width: 768px) {
     
  }
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    *{
+        font-size: 20px;
+    }
+ }
+
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) {
+@media (min-width: 1200px) {
     
  }
 
@@ -31,11 +40,14 @@
     background-color: #3A546D;
     color: white
 }
+/* .navbar-header > a{
+    line-height: 50px;
+} */
 .img{
     margin: 15px 0;
 }
 .star-line{
-    margin: 5%;
+    margin: 15px;
 }
 .linea-retta {
     display: inline-block;
@@ -43,4 +55,11 @@
     height: 1px;
     width: 30%;
     border: 1px solid;
+}
+.portfolio-img{
+    padding: 0 60px 40px 60px;
+}
+
+.hero-title{
+    margin-bottom: 30px;
 }
