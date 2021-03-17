@@ -18,18 +18,29 @@
     
  }
 
-.c1 .row:first-child{
+.bg_blue,
+.bg_blue a{
     background-color: #2C3E50;
+    color: white;
 }
-.c1 .row:last-child{
+.bg_green{
     background-color: #1ABC9C;
+    color: white;
 }
-.c3{
-    background-color: #1ABC9C;
-}
-.c5 .row:first-child{
+.bg_lblue{
     background-color: #3A546D;
+    color: white
 }
-.c5 .row:last-child{
-    background-color: #2C3E50;
+.img{
+    margin: 15px 0;
+}
+.star-line *{
+    margin: 30px;
+}
+.linea-retta {
+    display: inline-block;
+    vertical-align: middle;
+    height: 1px;
+    width: 50px;
+    border: 1px solid;
 }
