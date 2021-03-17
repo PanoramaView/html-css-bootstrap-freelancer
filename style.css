@@ -34,13 +34,13 @@
 .img{
     margin: 15px 0;
 }
-.star-line *{
-    margin: 30px;
+.star-line{
+    margin: 5%;
 }
 .linea-retta {
     display: inline-block;
     vertical-align: middle;
     height: 1px;
-    width: 50px;
+    width: 30%;
     border: 1px solid;
 }
