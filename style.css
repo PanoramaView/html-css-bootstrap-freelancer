@@ -60,7 +60,12 @@ form{
     vertical-align: middle;
     height: 1px;
     width: 30%;
-    border: 1px solid;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.star-line span{
+    vertical-align: -10;
+    font-size: 50px;
 }
 .portfolio-img{
     padding: 0 60px 40px 60px;
@@ -89,12 +94,17 @@ form{
     line-height: 15px;
 }
 .pad_pag{
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 .socials img{
-    max-width: 20px;
+    max-width: 30px;
     display: inline-block;
+    border: solid 1px white;
+    padding: 3px;
+}
+.socials a:hover{
+    opacity: 0.7;
 }
 
 
